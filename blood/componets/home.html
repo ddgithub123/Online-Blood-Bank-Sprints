@@ -1,1 +1,11 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+</head>
+<body>
+    <h2>Welcome to the Online Blood Management System</h2>
+    <p>You are logged in as {{ user.username }}</p>
+    <a href="{% url 'logout' %}">Logout</a>
+</body>
+</html>
